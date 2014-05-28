@@ -167,8 +167,8 @@ public class Inicio {
 		// Se lee el archivo csv
 		//
 		try {
-	         
-	        CsvReader equipos_import = new CsvReader("/home/mricharleon/mundial.csv");
+	         // en esta linea modificar la ruta al archivo
+	        CsvReader equipos_import = new CsvReader("/home/usuario/mundial.csv");
 	        equipos_import.readHeaders();
 	         
 	        while (equipos_import.readRecord())
